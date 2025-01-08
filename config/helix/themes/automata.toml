@@ -38,8 +38,6 @@
 "markup.link.url" = { fg = "yellow", modifiers = ["bold", "underlined"]}
 "markup.link.text" = { fg = "light-yellow" }
 
-
-#DONE
 "diff.plus" = "green"
 "diff.delta" = "purple"
 "diff.minus" = "red"

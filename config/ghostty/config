@@ -1,0 +1,59 @@
+
+macos-option-as-alt = true
+
+keybind = global:cmd+s=toggle_quick_terminal
+keybind = alt+shift+left=resize_split:left,15
+keybind = alt+shift+down=resize_split:down,15
+keybind = alt+shift+up=resize_split:up,15
+keybind = alt+shift+right=resize_split:right,15
+keybind = ctrl+shift+left=goto_split:left
+keybind = ctrl+shift+right=goto_split:right
+keybind = ctrl+shift+up=goto_split:top
+keybind = ctrl+shift+down=goto_split:bottom
+
+font-family = "CommitMonoAutomata"
+font-size = 14
+font-thicken = false
+
+macos-titlebar-style = hidden
+window-decoration = false
+background-opacity = 0.80
+background-blur-radius = 0
+unfocused-split-opacity = 0.95
+window-padding-x=2,2
+window-padding-y=2,2
+
+cursor-style = block_hollow
+
+macos-icon = custom-style
+macos-icon-frame = plastic
+macos-icon-ghost-color = #DFEBF5
+macos-icon-screen-color = #74B0CF
+
+# Neir Automata Custom Theme
+background=EBE6D2
+foreground=2B2A2A
+#black
+palette= 0=#2B2A2A
+palette= 8=#402F27
+#red
+palette= 1=#662A37
+palette= 9=#992C34
+#green
+palette= 2=#244E33
+palette= 10=416647
+# yellow
+palette= 3=#B67F21
+palette= 11=#ADAD39
+# blue
+palette= 4=#3A4A67
+palette= 12=#5B89A7
+# purple
+palette= 5=#674C8B
+palette= 13=#954C5F
+# aqua
+palette= 6=#457A7A
+palette= 14=#328E8F
+# white
+palette= 7=#C0BCAC
+palette= 15=#EBE6D2

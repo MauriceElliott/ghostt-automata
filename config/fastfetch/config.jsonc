@@ -1,0 +1,121 @@
+// Made by April Hall
+// https://github.com/arithefirst/dotfiles
+{   
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    // "logo": {
+    //     "type":"kitty",
+    //     "padding": {
+    //         "top": 1,
+    //         "left": 1,
+    //         "right": 2
+    //     },
+    //     "width": 18,
+    //     "height":17,
+    //     "source": "~/.config/fastfetch/img/2b_1.png"
+    // },
+    "logo": {
+        "type":"kitty",
+        "padding": {
+            "top": 1,
+            "left": 1,
+            "right": 2
+        },
+        "width": 26,
+        "height":17,
+        "source": "~/.config/fastfetch/img/2b_2.png"
+    },
+    "display": {
+        "separator": ""
+    },
+    "modules": [
+        {
+          "key": "╭───────────╮",
+          "type": "custom",
+          "keyColor": "black"
+        },
+        {
+            // draw borders first to make colors of left and right border consistant
+            "key": "│{#31}  user    {#black}│ ",
+            "type": "title",
+            "format": "{user-name}",
+            "keyColor": "black"
+        },
+        {
+            "key": "│{#32} 󰇅 host    {#black}│ ",
+            "type": "title",
+            "format": "{host-name}",
+            "keyColor": "black"
+
+        },
+        {
+            "key": "│{#33} 󰅐 uptime  {#black}│ ",
+            "type": "uptime",
+            "keyColor": "black",
+            "format": "{1} days {2} hours {3} mins"
+        },
+        {
+            "key": "│{#34} {icon} distro  {#black}│ ",
+            "type": "os",
+            "keyColor": "black",
+            "format": "{pretty-name} {codename}"
+        },
+        {
+            "key": "│{#35}  kernel  {#black}│ ",
+            "type": "kernel",
+            "keyColor": "black",
+            "format": "{sysname}"
+        },
+        {
+            "key": "│{#36} 󰇄 display {#black}│ ",
+            "type": "display",
+            "keyColor": "black",
+            "format": "{width}x{height} @ {refresh-rate} Hz"
+        },
+        {
+            "key": "│{#31}  terminal{#black}│ ",
+            "type": "terminal",
+            "keyColor": "black",
+            "format": "{pretty-name}"
+        },
+        {
+            "key": "│{#32}  shell   {#black}│ ",
+            "type": "shell",
+            "keyColor": "black",
+            "format": "{pretty-name}"
+        },
+        {
+            "key": "│{#33} 󰍛 cpu     {#black}│ ",
+            "type": "cpu",
+            "keyColor": "black",
+            "format": "{name}"
+        },
+        {
+            "key": "│{#34} 󰉉 disk    {#black}│ ",
+            "type": "disk",
+            "folders": "/",
+            "keyColor": "black",
+            "format": "{1} / {2} ({3})"
+        },
+        {
+            "key": "│{#35}  memory  {#black}│ ",
+            "type": "memory",
+            "keyColor": "black"
+        },
+        {
+          "key": "├───────────┤",
+          "type": "custom",
+          "keyColor": "black"
+        },
+        {
+            "key": "│{#39}  colors  {#black}│ ",
+            "type": "colors",
+            "symbol": "square",
+            "keyColor": "black"
+        },
+        {
+            "key": "╰───────────╯",
+            "type": "custom",
+            "keyColor": "black"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+theme = "automata"
+
+[editor]
+mouse        = true
+auto-save    = true
+cursorline   = true
+bufferline   = "always"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left        = [ "mode", "spinner", "diagnostics" ]
+center      = [ "file-name", "separator", "version-control" ]
+right       = [ "position", "separator", "total-line-numbers" ]
+separator   = "<==> "
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.whitespace.render]
+space="none"
+tab="none"
+nbsp="none"
+nnbsp="none"
+newline="none"
+
+[editor.whitespace.characters]
+space="·"
+tab="·"
+
+[editor.lsp]
+display-inlay-hints = false
+
+[keys.normal]
+space."." = "file_picker_in_current_buffer_directory"
+A-up = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+A-down = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+

@@ -1,0 +1,127 @@
+"tag" = { fg = "light-yellow" }
+"attribute" = { fg = "light-blue" }
+"comment" = { fg = "whitespace" }
+"constant" = { fg = "light-green" }
+"constant.numeric" = { fg = "yellow", modifier=["bold"] }
+"constant.builtin" = { fg = "light-green" }
+"constant.character.escape" = { fg = "light-yellow" }
+"constructor" = { fg = "light-blue" }
+"function" = { fg = "light-green" }
+"function.builtin" = { fg = "light-blue" }
+"function.macro" = { fg = "light-blue" }
+"keyword" = { fg = "cyan" }
+"keyword.control" = { fg = "light-red" }
+"keyword.control.import" = { fg = "light-red" }
+"keyword.directive" = { fg = "cyan" }
+"keyword.storage" = { fg = "blue" }
+"label" = { fg = "blue" }
+"namespace" = { fg = "blue" }
+"operator" = { fg = "blue" }
+"keyword.operator" = { fg = "red" }
+"special" = { fg = "white" }
+"string" = { fg = "light-green" }
+"string.escape" = "light-green"
+"string.regex" = "light-red"
+"string.special" = "light-green"
+"type" = { fg = "purple" }
+"variable.builtin" = { fg = "light-purple" }
+"variable.parameter" = { fg = "light-purple" }
+"variable.other.member" = { fg = "light-purple" }
+
+"markup.heading" = { fg = "light-red", modifiers = ["bold"] }
+"markup.raw.inline" = { fg = "blue" }
+"markup.bold" = { fg = "black", modifiers = ["bold"] }
+"markup.italic" = { fg = "black", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.list" = { fg = "green" }
+"markup.quote" = { fg = "light-black" }
+"markup.link.url" = { fg = "yellow", modifiers = ["bold", "underlined"]}
+"markup.link.text" = { fg = "light-yellow" }
+
+
+#DONE
+"diff.plus" = "green"
+"diff.delta" = "purple"
+"diff.minus" = "red"
+
+"diagnostic.info".underline = { color = "blue", style = "curl" } 
+"diagnostic.hint".underline = { color = "green", style = "curl" } 
+"diagnostic.warning".underline = { color = "yellow", style = "curl" } 
+"diagnostic.error".underline = { color = "red", style = "curl" } 
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"info" = { fg = "blue", modifiers = ["bold"] }
+"hint" = { fg = "green", modifiers = ["bold"] }
+"warning" = { fg = "yellow", modifiers = ["bold"] }
+"error" = { fg = "light-red", modifiers = ["bold"] }
+
+"ui.background" = {bg = "bright-white"}
+
+"ui.virtual" = { fg = "white" }
+"ui.virtual.indent-guide" = { fg = "light-black" }
+"ui.virtual.whitespace" = { fg = "whitespace" }
+"ui.virtual.ruler" = { bg = "whitespace" }
+"ui.virtual.inlay-hint" = { fg = "whitespace" }
+"ui.virtual.jump-label" = { fg = "whitespace", modifiers = ["bold"] }
+"ui.virtual.wrap" = { fg = "whitespace" }
+
+"ui.cursor" = { fg = "light-black", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "light-black", modifiers = ["reversed"] }
+"ui.cursor.match" = { fg = "black", bg = "white"}
+
+"ui.selection" = { bg = "green" }
+"ui.selection.primary" = { bg = "light-white" }
+"ui.cursorline.primary" = { bg = "cursor-line" }
+
+"ui.highlight" = { bg = "light-white" }
+"ui.highlight.frameline" = { }
+
+"ui.gutter" = { fg = "green", bg = "white"}
+"ui.gutter.selected" = {fg = "light-white", bg="yellow"}
+"ui.linenr" = { fg = "green", bg = "white" }
+"ui.linenr.selected" = { fg = "light-white", bg="yellow" }
+
+"ui.statusline" = { fg = "light-white", bg="light-red" }
+"ui.statusline.normal" = { fg = "light-red", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "light-red", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "light-red", modifiers = ["bold"] }
+
+"ui.bufferline" = { fg = "black", bg = "white" }
+"ui.bufferline.active" = { fg = "light-white", bg = "yellow" }
+"ui.bufferline.background" = { bg = "white" }
+
+"ui.text" = { fg = "black" }
+"ui.text.focus" = { fg = "black", bg = "white", modifiers = ["bold"] }
+"ui.text.info" = { fg = "red", modifiers = ["bold"] }
+
+"ui.help" = { bg = "white", fg = "black" }
+"ui.popup" = { bg = "white", fg = "black" }
+"ui.window" = {bg = "white", fg = "black" }
+"ui.debug" = { fg = "light-red" }
+"ui.menu" = { bg = "white", fg = "blue" }
+"ui.menu.selected" = { bg = "yellow", fg = "blue" }
+"ui.menu.scroll" = { bg = "light-white", fg = "blue" }
+"ui.picker.header" = { bg = "white", fg = "black" }
+"ui.picker.header.column" = { bg = "red", fg = "blue" }
+"ui.picker.header.column.active" = { bg = "light-red", fg = "light-blue" }
+
+[palette]
+black="#2B2A2A"
+light-black="#402F27"
+red="#662A37"
+light-red="#992C34"
+green="#244E33"
+light-green="#53825A"
+yellow="#B67F21"
+light-yellow="#ADAD39"
+blue="#3A4A67"
+light-blue="#5B89A7"
+purple="#674C8B"
+light-purple="#954C5F"
+aqua="#457A7A"
+light-aqua="#328E8F"
+white="#CDC8B0"
+light-white="#EBE6D2"
+bright-white="#DAD4BA"
+whitespace="#918E82"
+cursor-line="#D6A45D"

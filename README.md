@@ -1,5 +1,6 @@
 # ghostt-automata
 A Nier Automata themed colour theme for Ghostty terminal, Fastfetch, and Helix.
+![Preview](ghostt-automata.png "Ghostt Automata")
 
 To install simply copy the folders in config to your own .config folder, however I recommend checking them first as I've not removed any of the configuration relevant to my own set up.
 

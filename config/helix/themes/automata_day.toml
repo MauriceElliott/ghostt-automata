@@ -9,10 +9,10 @@
 "function" = { fg = "light-green" }
 "function.builtin" = { fg = "light-blue" }
 "function.macro" = { fg = "light-blue" }
-"keyword" = { fg = "cyan" }
+"keyword" = { fg = "light-aqua" }
 "keyword.control" = { fg = "light-red" }
 "keyword.control.import" = { fg = "light-red" }
-"keyword.directive" = { fg = "cyan" }
+"keyword.directive" = { fg = "light-green" }
 "keyword.storage" = { fg = "blue" }
 "label" = { fg = "blue" }
 "namespace" = { fg = "blue" }
@@ -38,6 +38,8 @@
 "markup.link.url" = { fg = "yellow", modifiers = ["bold", "underlined"]}
 "markup.link.text" = { fg = "light-yellow" }
 
+
+#DONE
 "diff.plus" = "green"
 "diff.delta" = "purple"
 "diff.minus" = "red"
@@ -104,20 +106,20 @@
 "ui.picker.header.column.active" = { bg = "light-red", fg = "light-blue" }
 
 [palette]
-black="#2B2A2A"
-light-black="#402F27"
-red="#662A37"
-light-red="#992C34"
-green="#244E33"
-light-green="#53825A"
+black="#1F1E1E"
+light-black="#33251F"
+red="#52212C"
+light-red="#732127"
+green="#1B3B26"
+light-green="#406647"
 yellow="#B67F21"
 light-yellow="#ADAD39"
 blue="#3A4A67"
-light-blue="#5B89A7"
-purple="#674C8B"
-light-purple="#954C5F"
-aqua="#457A7A"
-light-aqua="#328E8F"
+light-blue="#466A82"
+purple="#5B437A"
+light-purple="#8C485A"
+aqua="#3D6B6B"
+light-aqua="#2B797A"
 white="#CDC8B0"
 light-white="#EBE6D2"
 bright-white="#DAD4BA"

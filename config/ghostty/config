@@ -30,30 +30,76 @@ macos-icon-frame = plastic
 macos-icon-ghost-color = #DFEBF5
 macos-icon-screen-color = #74B0CF
 
-# Neir Automata Custom Theme
-background=EBE6D2
-foreground=2B2A2A
-#black
-palette= 0=#2B2A2A
-palette= 8=#402F27
-#red
-palette= 1=#662A37
-palette= 9=#992C34
-#green
-palette= 2=#244E33
-palette= 10=416647
-# yellow
-palette= 3=#B67F21
-palette= 11=#ADAD39
-# blue
-palette= 4=#3A4A67
-palette= 12=#5B89A7
-# purple
-palette= 5=#674C8B
-palette= 13=#954C5F
-# aqua
-palette= 6=#457A7A
-palette= 14=#328E8F
-# white
-palette= 7=#C0BCAC
-palette= 15=#EBE6D2
+# Neir Automata Light Theme
+# background=EBE6D2
+# foreground=2B2A2A
+# #black
+# palette= 0=#2B2A2A
+# palette= 8=#402F27
+# #red
+# palette= 1=#662A37
+# palette= 9=#992C34
+# #green
+# palette= 2=#244E33
+# palette= 10=416647
+# # yellow
+# palette= 3=#B67F21
+# palette= 11=#ADAD39
+# # blue
+# palette= 4=#3A4A67
+# palette= 12=#5B89A7
+# # purple
+# palette= 5=#674C8B
+# palette= 13=#954C5F
+# # aqua
+# palette= 6=#457A7A
+# palette= 14=#328E8F
+# # white
+# palette= 7=#C0BCAC
+# palette= 15=#EBE6D2
+
+# Nier Automata Dark theme
+# Main colors
+background = #1A1313
+foreground = #E0DBC1
+
+# Cursor
+cursor-color = #FAF4DE
+cursor-text = #1A1313
+
+# Selection
+selection-background = #5C3016
+selection-foreground = #FAF4DE
+
+# ANSI Color Palette
+# Black
+palette = 0 = #1A1313
+palette = 8 = #30231E
+
+# Red
+palette = 1 = #B34750
+palette = 9 = #D94B43
+
+# Green
+palette = 2 = #6B997B
+palette = 10 = #77D989
+
+# Yellow
+palette = 3 = #EBA123
+palette = 11 = #FFCA80
+
+# Blue
+palette = 4 = #7A97CC
+palette = 12 = #61B8F2
+
+# Magenta/Purple
+palette = 5 = #9E7ACC
+palette = 13 = #CC6A84
+
+# Cyan/Aqua
+palette = 6 = #4CD6D9
+palette = 14 = #8DCBCC
+
+# White
+palette = 7 = #E0DBC1
+palette = 15 = #FAF4DE

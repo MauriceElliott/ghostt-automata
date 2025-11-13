@@ -1,7 +1,11 @@
 # ghostt-automata
+### Update
+I have added a new dark theme, also the screenshot for that theme is using Annotation mono rather than the CommitMono that's included in the repo.
+
 A Nier Automata themed colour scheme for Ghostty terminal, Fastfetch, and Helix.
 
-![Preview](ghostt-automata.png "Ghostt Automata")
+![Preview](ghostt-automata-light.png "Ghostt Automata Light")
+![Preview](ghostt-automata-dark.png "Ghostt Automata Dark")
 
 To install simply copy the folders in config to your own .config folder, however I recommend checking them first as I've not removed any of the configuration relevant to my own set up.
 
